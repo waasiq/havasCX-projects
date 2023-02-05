@@ -6,7 +6,7 @@ interface ButtonProps {
 }
 
 const Button: React.FC<ButtonProps> = ({ text }) => {
-  const { isClicked, setClicked } = useContext(SearchContext) as SearchContextType
+  const { setClicked } = useContext(SearchContext) as SearchContextType
 
   const onClick = (): void => {
     setClicked(true)

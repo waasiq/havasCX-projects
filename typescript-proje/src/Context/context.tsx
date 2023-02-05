@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from 'react'
+import React, { createContext, useState } from 'react'
 
 interface Props {
   children: React.ReactNode
@@ -13,12 +13,12 @@ export interface SearchContextType {
 
 export const SearchContext = createContext<SearchContextType | null>(null)
 
-export const SearchContextProvider = ({ children }: Props) => {
+export const SearchContextProvider: any = ({ children }: Props) => {
   const [text, setText] = useState('')
   const [isClicked, setIsClicked] = useState(false)
 
-  const updateText = (text: string) => { setText(text) }
-  const setClicked = (isClicked: boolean) => { setIsClicked(isClicked) }
+  const updateText = (text: string): void => { setText(text) }
+  const setClicked = (isClicked: boolean): void => { setIsClicked(isClicked) }
 
   return (
     <SearchContext.Provider value={{ text, updateText, isClicked, setClicked }}>

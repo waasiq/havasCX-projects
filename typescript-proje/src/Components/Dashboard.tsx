@@ -60,7 +60,7 @@ const Dashboard: React.FC = () => {
             <div className="flex justify-center py-20 w-full h-16 bg-gray-100 dark:bg-gray-900">
                 <div className="grid grid-cols-4 gap-6">
                     {filtered
-                      ? filteredCards.length == 0
+                      ? filteredCards.length === 0
                         ? <p className="absolute left-9/20  font-medium  text-xl  text-gray-700 dark:text-gray-400">No Cards Found</p>
                         : filteredCards.map((card) => {
                           return (

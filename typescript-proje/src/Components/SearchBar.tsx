@@ -1,11 +1,11 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import { SearchContext, type SearchContextType } from '../Context/context'
 import Button from './Button'
 
 const SearchBar: React.FC = () => {
   const { text, updateText } = useContext(SearchContext) as SearchContextType
 
-  const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const onChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
     updateText(e.target.value)
   }
 
