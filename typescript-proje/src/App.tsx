@@ -1,16 +1,13 @@
-import React from 'react';
-import Dashboard from './Components/Dashboard';
-import Button from './Components/Button';
-import SearchBar from './Components/SearchBar';
-import { SearchContextProvider } from './Context/context';
-import './App.css';
+import React from 'react'
+import Dashboard from './Components/Dashboard'
+import { SearchContextProvider } from './Context/context'
 
-const App:React.FC = () => {
+const App: React.FC = () => {
   return (
     <SearchContextProvider>
         <Dashboard />
     </SearchContextProvider>
-  );
+  )
 }
 
-export default App;
+export default App
