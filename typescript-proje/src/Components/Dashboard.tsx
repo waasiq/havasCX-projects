@@ -57,7 +57,7 @@ const Dashboard: React.FC = () => {
                 <p className="text-center text-white ">Results: {resultCount}</p>
             </div>
 
-            <div className="flex justify-center py-20 w-full h-16 bg-gray-100 dark:bg-gray-900">
+            <div className="flex justify-center py-20 w-full bg-gray-100 dark:bg-gray-900">
                 <div className="grid grid-cols-4 gap-6">
                     {filtered
                       ? filteredCards.length === 0

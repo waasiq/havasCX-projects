@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "datas",
+  "info": {
+    "singularName": "data",
+    "pluralName": "datas",
+    "displayName": "Data"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
