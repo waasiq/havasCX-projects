@@ -1,4 +1,3 @@
-
 import { Strapi } from "@strapi/strapi";
 
 module.exports = {
