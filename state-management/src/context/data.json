@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "title": "Akhiyaan",
+        "author": "Mitraz",
+        "duration": "3:30",
+        "src": "https://i.ytimg.com/vi/MHhsBGidWds/maxresdefault.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Someone you Loved",
+        "author": "Lewis Capaldi",
+        "duration": "3:30",
+        "src": "https://i.ytimg.com/vi/u1yVCeXYya4/maxresdefault.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Everybody Hates Me",
+        "author": "The Chainsmokers",
+        "duration": "3:30",
+        "src": "https://upload.wikimedia.org/wikipedia/en/8/81/The_Chainsmokers_Everybody_Hates_Me.png"
+    },
+    {
+        "id": "4",
+        "title": "Ghost",
+        "author": "Justin Bieber",
+        "duration": "3:30",
+        "src": "https://i.ytimg.com/vi/KRUWn3dLoRg/maxresdefault.jpg"
+    }
+]
